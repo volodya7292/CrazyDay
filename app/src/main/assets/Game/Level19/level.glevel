@@ -1,0 +1,48 @@
+[NAME] Level19
+[MAINPLATE] Game/Level19/image.png 8000 1400 0 0 8000 1400
+[BACKGROUND] Game/Level19/background.png 1280 720
+[SPAWN] 229 705
+[TASK] { [AREA] end }
+[MUSIC] Game/Level19/music.mp3
+[HEALTHCARE] health
+[ITEM] health-0 1420 615 64 64 False Game/Items/healthcare.png
+[ITEM] health-1 4606 912 64 64 False Game/Items/healthcare.png
+[ITEM] health-2 2242 456 64 64 False Game/Items/healthcare.png
+[ITEM] hammer-0 553 669 64 64 True Game/Items/hammer.png
+[ITEM] hammer-1 5071 430 64 64 True Game/Items/hammer.png
+[ITEM] hammer-2 2080 493 64 64 True Game/Items/hammer.png
+[ITEM] hammer-3 3788 708 64 64 True Game/Items/hammer.png
+[ITEM] hammer-4 6800 610 64 64 True Game/Items/hammer.png
+[ITEM] hammer-5 2765 531 64 64 True Game/Items/hammer.png
+[COIN] CoinItem-C-0 6407 990 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-1 1922 636 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-2 2664 630 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-3 3654 729 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-4 4717 926 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-5 1281 668 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-6 4500 917 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-7 5614 523 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-8 6903 835 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-9 2968 378 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-10 4967 420 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-11 6052 484 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-12 3354 891 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-13 6632 935 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-14 3497 797 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-15 4248 456 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-16 6505 500 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-17 7219 502 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-18 739 615 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-19 3568 333 64 64 Game/Items/coin.png
+[ENEMY] Enemy-Tank-0 3 1004 711 100 150 Game/Enemy/tank_right.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[ENEMY] Enemy-Tank-1 3 7318 454 100 150 Game/Enemy/tank_right.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[ENEMY] Enemy-Tank-2 3 6074 446 100 150 Game/Enemy/tank_right.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[ENEMY] Enemy-Tank-3 3 4504 360 100 150 Game/Enemy/tank_right.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[ENEMY] Enemy-Tank-4 3 1742 730 100 150 Game/Enemy/tank_right.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[ENEMY] Enemy-Tank-5 3 2548 687 100 150 Game/Enemy/tank_right.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[ENEMY] Enemy-Tank-6 3 3257 297 100 150 Game/Enemy/tank_right.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[SECRET] Secret-end 7639 0 361 1400
+[SECRET] Secret-Secret1 3312 674 421 326
+[SECRET] Secret-Secret2 4489 884 301 137
+[SECRET] Secret-Secret3 6275 815 902 284
+

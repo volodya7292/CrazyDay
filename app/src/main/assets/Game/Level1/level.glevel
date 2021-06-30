@@ -25,7 +25,6 @@
 [COIN] CoinItem-Coin-17 2248 580 64 64 Game/Items/coin.png
 [COIN] CoinItem-Coin-18 2780 574 64 64 Game/Items/coin.png
 [COIN] CoinItem-Coin-19 2622 475 64 64 Game/Items/coin.png
-[BITMAP] Diamond 200 456 64 64 Game/Items/diamond.png
 [SECRET] Secret-SecretCoin 3796 393 74 74
 [SECRET] Secret-SecretCoin2 1582 447 90 90
 [SECRET] Secret-SecretCoin3 3074 440 86 86

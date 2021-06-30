@@ -1,0 +1,84 @@
+[NAME] Level17
+[MAINPLATE] Game/Level17/image.png 3032 2828 0 0 3032 2828
+[BACKGROUND] Game/Level17/background.png 1280 720
+[SPAWN] 1483 1457
+[TASK] { [AREA] end }
+[MUSIC] Game/Level17/music.mp3
+[HEALTHCARE] health
+[ITEM] shit-0 1669 1856 50 50 True Game/Items/shit.png
+[ITEM] shit-1 1985 2198 50 50 True Game/Items/shit.png
+[ITEM] shit-2 1444 1120 50 50 True Game/Items/shit.png
+[ITEM] shit-3 498 1435 50 50 True Game/Items/shit.png
+[ITEM] hammer-0 402 248 64 64 True Game/Items/hammer.png
+[COIN] CoinItem-C-0 2202 687 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-1 567 1684 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-2 2215 1775 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-3 2242 869 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-4 536 1129 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-5 1033 629 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-6 2711 2070 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-7 2701 1623 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-8 196 215 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-9 2688 805 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-10 2717 1850 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-11 2694 557 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-12 2162 341 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-13 2707 1027 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-14 2672 255 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-15 766 634 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-16 1373 2235 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-17 2253 2131 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-18 205 2576 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-19 1803 1738 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-20 565 2174 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-21 1434 1169 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-22 1832 976 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-23 213 2016 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-24 2218 1250 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-25 1770 2196 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-26 1984 2557 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-27 1800 789 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-28 610 220 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-29 2245 1964 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-30 2193 515 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-31 626 2549 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-32 1820 1560 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-33 2172 1624 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-34 2705 1417 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-35 1124 245 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-36 1834 1114 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-37 217 1553 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-38 2210 1408 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-39 2711 1207 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-40 2711 2236 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-41 2233 1086 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-42 1148 2552 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-43 2746 2462 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-44 1617 2588 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-45 218 598 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-46 221 1084 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-47 2409 2561 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-48 1828 1319 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-49 2683 396 64 64 Game/Items/coin.png
+[COIN] CoinItem-C2-0 1185 1482 64 64 Game/Items/coin.png
+[COIN] CoinItem-C2-1 1299 653 64 64 Game/Items/coin.png
+[COIN] CoinItem-C2-2 889 1076 64 64 Game/Items/coin.png
+[COIN] CoinItem-C2-3 2291 639 64 64 Game/Items/coin.png
+[COIN] CoinItem-C2-4 1207 1300 64 64 Game/Items/coin.png
+[COIN] CoinItem-C2-5 1139 1070 64 64 Game/Items/coin.png
+[COIN] CoinItem-C2-6 876 1785 64 64 Game/Items/coin.png
+[COIN] CoinItem-C2-7 1558 656 64 64 Game/Items/coin.png
+[COIN] CoinItem-C2-8 1541 282 64 64 Game/Items/coin.png
+[COIN] CoinItem-C2-9 1457 1425 64 64 Game/Items/coin.png
+[COIN] CoinItem-C2-10 868 2212 64 64 Game/Items/coin.png
+[COIN] CoinItem-C2-11 863 1378 64 64 Game/Items/coin.png
+[COIN] CoinItem-C2-12 1903 258 64 64 Game/Items/coin.png
+[COIN] CoinItem-C2-13 1259 1850 64 64 Game/Items/coin.png
+[COIN] CoinItem-C2-14 1510 1860 64 64 Game/Items/coin.png
+[ENEMY] Enemy-Electrical-0 2 1326 1800 100 150 Game/Enemy/electrical_slime_2.png Game/Enemy/electrical_slime_2.png Game/Enemy/electrical_slime_2.png
+[ENEMY] Enemy-Electrical-1 2 1271 228 100 150 Game/Enemy/electrical_slime_2.png Game/Enemy/electrical_slime_2.png Game/Enemy/electrical_slime_2.png
+[ENEMY] Enemy-Electrical-2 2 1169 601 100 150 Game/Enemy/electrical_slime_2.png Game/Enemy/electrical_slime_2.png Game/Enemy/electrical_slime_2.png
+[ENEMY] Enemy-Electrical-3 2 1436 2152 100 150 Game/Enemy/electrical_slime_2.png Game/Enemy/electrical_slime_2.png Game/Enemy/electrical_slime_2.png
+[ENEMY] Enemy-Tank-0 3 1715 2546 100 150 Game/Enemy/tank_right.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[SECRET] Secret-end 2589 108 296 100
+

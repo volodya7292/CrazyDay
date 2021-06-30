@@ -1,0 +1,31 @@
+[NAME] Level12
+[MAINPLATE] Game/Level12/image.png 8000 1000 0 0 8000 856
+[BACKGROUND] Game/Level11/background.png 1280 720
+[SPAWN] 390 340
+[TASK] { [AREA] end }
+[MUSIC] Game/Level12/music.mp3
+[HEALTHCARE] health
+[ITEM] hammer-0 6331 540 64 64 True Game/Items/hammer.png
+[ITEM] hammer-1 5676 565 64 64 True Game/Items/hammer.png
+[ITEM] hammer-2 6980 512 64 64 True Game/Items/hammer.png
+[ITEM] hammer-3 726 562 64 64 True Game/Items/hammer.png
+[ITEM] hammer-4 4401 560 64 64 True Game/Items/hammer.png
+[ITEM] hammer-5 2238 556 64 64 True Game/Items/hammer.png
+[ITEM] hammer-6 3709 620 64 64 True Game/Items/hammer.png
+[ITEM] hammer-7 1508 574 64 64 True Game/Items/hammer.png
+[ITEM] hammer-8 2933 610 64 64 True Game/Items/hammer.png
+[ITEM] hammer-9 5053 563 64 64 True Game/Items/hammer.png
+[ENEMY] Enemy-tank-0 3 6666 494 100 150 Game/Enemy/tank_left.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[ENEMY] Enemy-tank-1 3 4725 502 100 150 Game/Enemy/tank_left.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[ENEMY] Enemy-tank-2 3 2613 529 100 150 Game/Enemy/tank_left.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[ENEMY] Enemy-tank-3 3 7275 463 100 150 Game/Enemy/tank_left.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[ENEMY] Enemy-tank-4 3 4039 537 100 150 Game/Enemy/tank_left.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[ENEMY] Enemy-tank-5 3 3338 598 100 150 Game/Enemy/tank_left.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[ENEMY] Enemy-tank-6 3 1133 500 100 150 Game/Enemy/tank_left.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[ENEMY] Enemy-tank-7 3 5354 536 100 150 Game/Enemy/tank_left.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[ENEMY] Enemy-tank-8 3 1845 514 100 150 Game/Enemy/tank_left.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[ENEMY] Enemy-tank-9 3 5994 501 100 150 Game/Enemy/tank_left.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[SECRET] Secret-end 7459 0 541 1000
+
+
+

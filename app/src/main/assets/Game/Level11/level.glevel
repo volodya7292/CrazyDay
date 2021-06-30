@@ -1,0 +1,45 @@
+[NAME] Level11
+[MAINPLATE] Game/Level11/image.png 8000 1500 0 0 8000 1500
+[BACKGROUND] Game/Level11/background.png 1280 720
+[SPAWN] 192 1064
+[TASK] { [TYPE] COLLECT [ITEMTYPE] ITEM [ITEMNAME] Hammer [ITEMCOUNT] 10 }
+[MUSIC] Game/Level11/music.mp3
+[HEALTHCARE] health
+[ITEM] Hammer-0 3596 1205 64 64 False Game/Items/hammer.png
+[ITEM] Hammer-1 7694 292 64 64 False Game/Items/hammer.png
+[ITEM] Hammer-2 7195 761 64 64 False Game/Items/hammer.png
+[ITEM] Hammer-3 4968 707 64 64 False Game/Items/hammer.png
+[ITEM] Hammer-4 1686 1192 64 64 False Game/Items/hammer.png
+[ITEM] Hammer-5 3270 1214 64 64 False Game/Items/hammer.png
+[ITEM] Hammer-6 6657 760 64 64 False Game/Items/hammer.png
+[ITEM] Hammer-7 3953 1189 64 64 False Game/Items/hammer.png
+[ITEM] Hammer-8 1033 1151 64 64 False Game/Items/hammer.png
+[ITEM] Hammer-9 5549 1229 64 64 False Game/Items/hammer.png
+[ITEM] health-0 5834 1189 64 64 False Game/Items/healthcare.png
+[COIN] CoinItem-Coin-0 1753 1227 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-1 7123 752 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-2 5507 320 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-3 2419 1029 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-4 6431 1230 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-5 3882 173 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-6 5041 700 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-7 2994 873 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-8 2395 529 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-9 6758 760 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-10 3711 1197 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-11 6385 230 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-12 5418 1193 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-13 4319 666 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-14 1138 1210 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-15 7854 944 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-16 188 529 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-17 7000 229 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-18 2454 171 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-19 1389 428 64 64 Game/Items/coin.png
+[BITMAP] Flower 357 612 64 91 Game/Images/flower5.png
+[BITMAP] Flower2 3839 215 64 133 Game/Images/flower6.png
+[BITMAP] Flower3 6180 359 64 91 Game/Images/flower7.png
+[ENEMY] Enemy-Stone-0 1 4694 1106 100 150 Game/Enemy/stone.png Game/Enemy/stone.png Game/Enemy/stone.png
+[ENEMY] Enemy-Stone-1 1 6885 712 100 150 Game/Enemy/stone.png Game/Enemy/stone.png Game/Enemy/stone.png
+[ENEMY] Enemy-Stone-2 1 1339 1147 100 150 Game/Enemy/stone.png Game/Enemy/stone.png Game/Enemy/stone.png
+

@@ -1,0 +1,80 @@
+[NAME] Level16
+[MAINPLATE] Game/Level16/image.png 2926 3978 0 0 2926 3978
+[BACKGROUND] Game/Level16/background.png 1280 720
+[SPAWN] 2577 337
+[TASK] { [AREA] end }
+[MUSIC] Game/Level16/music.mp3
+[HEALTHCARE] health
+[ITEM] shit-0 1510 1606 65 64 True Game/Items/shit.png
+[ITEM] shit-1 1267 2763 65 64 True Game/Items/shit.png
+[ITEM] shit-2 1152 2091 65 64 True Game/Items/shit.png
+[ITEM] shit-3 1154 3227 65 64 True Game/Items/shit.png
+[ITEM] shit-4 1088 936 65 64 True Game/Items/shit.png
+[ITEM] shit-5 1488 347 65 64 True Game/Items/shit.png
+[ITEM] shit-6 1294 3691 65 64 True Game/Items/shit.png
+[ITEM] health-0 1350 2683 64 64 False Game/Items/healthcare.png
+[ITEM] health-1 1476 900 64 64 False Game/Items/healthcare.png
+[COIN] CoinItem-C-0 2229 3367 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-1 2643 761 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-2 1071 3694 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-3 2395 2736 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-4 782 330 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-5 1507 3715 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-6 1215 328 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-7 989 2784 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-8 1920 2777 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-9 875 1561 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-10 243 1460 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-11 393 963 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-12 2601 378 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-13 816 956 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-14 574 2761 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-15 251 1314 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-16 186 2571 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-17 2638 891 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-18 425 2101 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-19 2175 966 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-20 2570 2131 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-21 1258 2133 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-22 679 3713 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-23 2119 1507 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-24 1752 1560 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-25 1467 2767 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-26 1295 1581 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-27 2510 1616 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-28 220 166 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-29 2684 3242 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-30 2041 2210 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-31 1773 3319 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-32 1993 3732 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-33 1673 323 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-34 354 3570 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-35 399 3149 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-36 2043 333 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-37 1621 2119 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-38 1370 3213 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-39 349 3778 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-40 887 3215 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-41 828 2123 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-42 2555 1950 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-43 2487 3697 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-44 2671 3125 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-45 1783 940 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-46 1302 932 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-47 221 279 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-48 177 2472 64 64 Game/Items/coin.png
+[ENEMY] Enemy-Electrical-0 2 708 1516 100 150 Game/Enemy/electrical_slime_2.png Game/Enemy/electrical_slime_2.png Game/Enemy/electrical_slime_2.png
+[ENEMY] Enemy-Electrical-1 2 625 2706 100 150 Game/Enemy/electrical_slime_2.png Game/Enemy/electrical_slime_2.png Game/Enemy/electrical_slime_2.png
+[ENEMY] Enemy-Electrical-2 2 929 327 100 150 Game/Enemy/electrical_slime_2.png Game/Enemy/electrical_slime_2.png Game/Enemy/electrical_slime_2.png
+[ENEMY] Enemy-Electrical-3 2 2131 3317 100 150 Game/Enemy/electrical_slime_2.png Game/Enemy/electrical_slime_2.png Game/Enemy/electrical_slime_2.png
+[ENEMY] Enemy-Electrical-4 2 1846 901 100 150 Game/Enemy/electrical_slime_2.png Game/Enemy/electrical_slime_2.png Game/Enemy/electrical_slime_2.png
+[ENEMY] Enemy-Electrical-5 2 1860 2170 100 150 Game/Enemy/electrical_slime_2.png Game/Enemy/electrical_slime_2.png Game/Enemy/electrical_slime_2.png
+[ENEMY] Enemy-Electrical-6 2 541 3696 100 150 Game/Enemy/electrical_slime_2.png Game/Enemy/electrical_slime_2.png Game/Enemy/electrical_slime_2.png
+[SECRET] Secret-end 125 3498 176 419
+[SECRET] Secret-Secret1 135 137 242 242
+[SECRET] Secret-Secret2 2563 693 330 330
+[SECRET] Secret-Secret3 144 1273 308 308
+[SECRET] Secret-Secret4 2424 1896 396 396
+[SECRET] Secret-Secret5 131 2414 154 269
+[SECRET] Secret-Secret6 2616 3100 220 239
+

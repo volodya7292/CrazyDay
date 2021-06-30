@@ -1,0 +1,86 @@
+[NAME] Level20
+[MAINPLATE] Game/Level20/image.png 3000 3000 0 0 3000 3000
+[BACKGROUND] Game/Level20/background.png 1280 720
+[SPAWN] 1394 106
+[TASK] { KILLBOSS }
+[MUSIC] Game/Level20/music.mp3
+[HEALTHCARE] health
+[ITEM] health-0 2028 2129 64 64 False Game/Items/healthcare.png
+[ITEM] health-1 2211 1123 64 64 False Game/Items/healthcare.png
+[ITEM] health-2 773 2130 64 64 False Game/Items/healthcare.png
+[ITEM] health-3 1945 303 64 64 False Game/Items/healthcare.png
+[ITEM] health-4 721 1165 64 64 False Game/Items/healthcare.png
+[ITEM] health-5 840 374 64 64 False Game/Items/healthcare.png
+[ITEM] hammer-2 2745 2052 64 64 True Game/Items/hammer.png
+[ITEM] hammer-3 2243 1122 64 64 True Game/Items/hammer.png
+[ITEM] hammer-4 414 2724 64 64 True Game/Items/hammer.png
+[ITEM] hammer-5 162 646 64 64 True Game/Items/hammer.png
+[ITEM] hammer-6 1112 1583 64 64 True Game/Items/hammer.png
+[ITEM] hammer-7 2101 2705 64 64 True Game/Items/hammer.png
+[ITEM] hammer-8 1753 1763 64 64 True Game/Items/hammer.png
+[ITEM] hammer-9 397 1114 64 64 True Game/Items/hammer.png
+[ITEM] hammer-10 2709 490 64 64 True Game/Items/hammer.png
+[ITEM] hammer-11 2551 2675 64 64 True Game/Items/hammer.png
+[ITEM] hammer-12 936 375 64 64 True Game/Items/hammer.png
+[ITEM] ehammer-0 1375 2560 80 80 True Game/Items/empowered_hammer.png
+[ITEM] hammer-0 693 2715 64 64 True Game/Items/hammer.png
+[ITEM] hammer-1 726 1102 64 64 True Game/Items/hammer.png
+[ITEM] hammerX-0 959 1895 64 64 True Game/Items/hammer.png
+[ITEM] hammerX-1 225 1904 64 64 True Game/Items/hammer.png
+[ITEM] hammerX-2 777 77 64 64 True Game/Items/hammer.png
+[COIN] CoinItem-C-0 182 2095 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-1 2529 675 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-2 416 432 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-3 2551 321 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-4 2708 2068 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-5 257 1290 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-6 2705 1449 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-7 1915 1226 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-8 2507 1017 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-9 159 2253 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-10 2710 2694 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-11 2704 2389 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-12 210 1743 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-13 2707 1924 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-14 2699 2244 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-15 208 1595 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-16 2702 1755 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-17 184 2384 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-18 2677 1273 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-19 885 1216 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-20 407 687 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-21 2553 438 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-22 193 1903 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-23 2734 1622 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-24 2550 573 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-25 2524 905 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-26 231 1439 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-27 1291 2336 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-28 2516 1131 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-29 1042 1951 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-30 396 550 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-31 197 2524 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-32 2536 805 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-33 177 2690 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-34 1815 1910 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-35 2709 2526 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-36 1061 1628 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-37 426 833 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-38 424 989 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-39 1592 1627 64 64 Game/Items/coin.png
+[ENEMY] Enemy-BOSS-0 4 1272 2282 280 391 Game/Enemy/boss_right.png Game/Enemy/boss_left.png Game/Enemy/boss_right.png
+[ENEMY] Enemy-Tank-0 3 2010 2055 100 150 Game/Enemy/tank_right.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[ENEMY] Enemy-Tank-1 3 2670 1015 100 150 Game/Enemy/tank_right.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[ENEMY] Enemy-Tank-2 3 259 1034 100 150 Game/Enemy/tank_right.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[ENEMY] Enemy-Tank-3 3 1765 2508 100 150 Game/Enemy/tank_right.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[ENEMY] Enemy-Tank-4 3 746 2067 100 150 Game/Enemy/tank_right.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[ENEMY] Enemy-Tank-5 3 1564 2510 100 150 Game/Enemy/tank_right.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[ENEMY] Enemy-Tank-6 3 994 2533 100 150 Game/Enemy/tank_right.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[ENEMY] Enemy-Tank-7 3 1635 1283 100 150 Game/Enemy/tank_right.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[ENEMY] Enemy-Tank-8 3 1167 2535 100 150 Game/Enemy/tank_right.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[ENEMY] Enemy-Tank-9 3 834 1167 100 150 Game/Enemy/tank_right.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[ENEMY] Enemy-TankX-0 3 2237 2674 100 150 Game/Enemy/tank_right.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[ENEMY] Enemy-TankX-1 3 911 324 100 150 Game/Enemy/tank_right.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[ENEMY] Enemy-TankX-2 3 1780 1639 100 150 Game/Enemy/tank_right.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[ENEMY] Enemy-TankX-3 3 569 2675 100 150 Game/Enemy/tank_right.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+

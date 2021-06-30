@@ -1,0 +1,71 @@
+[NAME] Level15
+[MAINPLATE] Game/Level15/image.png 3950 2860 0 0 3950 2860
+[BACKGROUND] Game/Level15/background.png 1280 720
+[SPAWN] 227 2601
+[TASK] { [AREA] end }
+[MUSIC] Game/Level15/music.mp3
+[HEALTHCARE] health
+[ITEM] Clock-0 2403 279 64 64 True Game/Items/clock.png
+[ITEM] Clock-1 1315 384 64 64 True Game/Items/clock.png
+[ITEM] Clock-2 266 354 64 64 True Game/Items/clock.png
+[COIN] CoinItem-Coin-0 3691 2470 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-1 2479 1013 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-2 2773 868 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-3 1368 1387 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-4 3739 1510 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-5 3645 742 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-6 1569 1504 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-7 270 1556 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-8 1347 825 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-9 3677 352 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-10 3513 1748 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-11 494 1339 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-12 1589 490 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-13 2413 1339 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-14 3640 1342 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-15 2801 1788 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-16 1361 1086 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-17 2811 586 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-18 1540 1222 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-19 3763 918 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-20 279 863 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-21 258 1897 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-22 1562 972 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-23 1347 1667 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-24 2462 700 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-25 280 1177 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-26 2416 1610 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-27 3533 2338 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-28 1367 2287 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-29 482 444 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-30 260 2254 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-31 2816 348 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-32 2791 2030 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-33 2424 2144 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-34 3715 1976 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-35 1354 1999 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-36 1604 1831 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-37 465 1738 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-38 2720 1487 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-39 2411 1834 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-40 477 710 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-41 3608 2167 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-42 1582 2150 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-43 2721 2359 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-44 1314 575 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-45 274 524 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-46 472 2454 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-47 3518 1154 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-48 2412 2496 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-49 489 1009 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-50 2782 1262 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-51 3480 537 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-52 2403 440 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-53 455 2033 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-54 1569 726 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-55 1591 2454 64 64 Game/Items/coin.png
+[ENEMY] Enemy-Stone-0 1 2141 2592 100 150 Game/Enemy/stone.png Game/Enemy/stone.png Game/Enemy/stone.png
+[ENEMY] Enemy-Stone-1 1 3258 2584 100 150 Game/Enemy/stone.png Game/Enemy/stone.png Game/Enemy/stone.png
+[ENEMY] Enemy-Stone-2 1 999 2562 100 150 Game/Enemy/stone.png Game/Enemy/stone.png Game/Enemy/stone.png
+[SECRET] Secret-end 3490 192 416 108
+

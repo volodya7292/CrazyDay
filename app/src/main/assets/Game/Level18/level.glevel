@@ -1,0 +1,58 @@
+[NAME] Level18
+[MAINPLATE] Game/Level18/image.png 8000 1400 0 0 8000 1400
+[BACKGROUND] Game/Level18/background.png 1600 882
+[SPAWN] 311 991
+[TASK] { [TYPE] COLLECT [ITEMTYPE] ITEM [ITEMNAME] ehammer [ITEMCOUNT] 20 }
+[MUSIC] Game/Level18/music.mp3
+[HEALTHCARE] health
+[ITEM] ehammer-0 4188 843 70 70 True Game/Items/empowered_hammer.png
+[ITEM] ehammer-1 5917 939 70 70 True Game/Items/empowered_hammer.png
+[ITEM] ehammer-2 2396 169 70 70 True Game/Items/empowered_hammer.png
+[ITEM] ehammer-3 2064 211 70 70 True Game/Items/empowered_hammer.png
+[ITEM] ehammer-4 7347 675 70 70 True Game/Items/empowered_hammer.png
+[ITEM] ehammer-5 7822 285 70 70 True Game/Items/empowered_hammer.png
+[ITEM] ehammer-6 4577 263 70 70 True Game/Items/empowered_hammer.png
+[ITEM] ehammer-7 6356 261 70 70 True Game/Items/empowered_hammer.png
+[ITEM] ehammer-8 4900 183 70 70 True Game/Items/empowered_hammer.png
+[ITEM] ehammer-9 1246 550 70 70 True Game/Items/empowered_hammer.png
+[ITEM] ehammer-10 3105 775 70 70 True Game/Items/empowered_hammer.png
+[ITEM] ehammer-11 3423 248 70 70 True Game/Items/empowered_hammer.png
+[ITEM] ehammer-12 1009 237 70 70 True Game/Items/empowered_hammer.png
+[ITEM] ehammer-13 6811 325 70 70 True Game/Items/empowered_hammer.png
+[ITEM] ehammer-14 2796 976 70 70 True Game/Items/empowered_hammer.png
+[ITEM] ehammer-15 2566 425 70 70 True Game/Items/empowered_hammer.png
+[ITEM] ehammer-16 1503 290 70 70 True Game/Items/empowered_hammer.png
+[ITEM] ehammer-17 5424 210 70 70 True Game/Items/empowered_hammer.png
+[ITEM] ehammer-18 1672 703 70 70 True Game/Items/empowered_hammer.png
+[ITEM] ehammer-19 3792 391 70 70 True Game/Items/empowered_hammer.png
+[COIN] CoinItem-C-0 5179 423 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-1 4704 362 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-2 4395 346 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-3 1232 498 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-4 1654 709 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-5 7344 780 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-6 3009 708 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-7 6218 417 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-8 6910 360 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-9 3621 476 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-10 4173 867 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-11 5799 718 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-12 7162 531 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-13 5570 320 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-14 3244 538 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-15 3990 570 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-16 1870 428 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-17 6050 692 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-18 809 532 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-19 6628 449 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-20 4949 166 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-21 7610 349 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-22 4315 604 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-23 699 942 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-24 2553 415 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-25 3781 342 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-26 5911 1047 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-27 2775 931 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-28 7444 502 64 64 Game/Items/coin.png
+[COIN] CoinItem-C-29 2223 379 64 64 Game/Items/coin.png
+
