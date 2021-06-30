@@ -1,0 +1,44 @@
+[NAME] Level6
+[MAINPLATE] Game/Level6/image.png 4000 3000 0 0 4000 3000
+[BACKGROUND] Game/Level6/background.png 1280 720
+[SPAWN] 224 2604
+[TASK] { [TYPE] COLLECT [ITEMTYPE] ITEM [ITEMNAME] Hammer [ITEMCOUNT] 1 }
+[MUSIC] Game/Level6/music.mp3
+[HEALTHCARE] health
+[ITEM] Shit-0 739 1348 65 64 True Game/Items/shit.png
+[ITEM] Shit-1 1009 2637 65 64 True Game/Items/shit.png
+[ITEM] Shit-2 3170 1995 65 64 True Game/Items/shit.png
+[ITEM] Shit-3 3594 776 65 64 True Game/Items/shit.png
+[ITEM] Shit-4 593 165 65 64 True Game/Items/shit.png
+[ITEM] Hammer-0 3550 345 64 64 False Game/Items/hammer.png
+[ITEM] health-0 850 203 64 64 False Game/Items/healthcare.png
+[COIN] CoinItem-Coin-0 3450 810 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-1 496 2016 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-2 1931 2638 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-3 1203 1958 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-4 1281 1351 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-5 1223 769 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-6 2838 1996 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-7 1927 801 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-8 507 1346 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-9 2941 1391 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-11 383 2638 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-12 2907 2605 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-13 3627 2637 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-14 1963 1997 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-15 2646 818 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-16 2237 1394 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-17 722 174 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-18 2165 168 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-19 1157 2644 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-20 3545 2004 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-21 2882 164 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-22 1483 198 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-23 3634 1383 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-24 574 731 64 64 Game/Items/coin.png
+[ENEMY] Enemy-EnemyStone-0 1 512 1955 100 150 Game/Enemy/stone.png Game/Enemy/stone.png Game/Enemy/stone.png
+[ENEMY] Enemy-EnemyStone-1 1 3380 2675 100 150 Game/Enemy/stone.png Game/Enemy/stone.png Game/Enemy/stone.png
+[ENEMY] Enemy-Electrical-0 2 3438 1581 100 74 Game/Enemy/electrical_slime.png Game/Enemy/electrical_slime.png Game/Enemy/electrical_slime.png
+[ENEMY] Enemy-Electrical-1 2 970 906 100 74 Game/Enemy/electrical_slime.png Game/Enemy/electrical_slime.png Game/Enemy/electrical_slime.png
+[ENEMY] Enemy-Tank-0 3 3118 297 100 150 Game/Enemy/tank_left.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+

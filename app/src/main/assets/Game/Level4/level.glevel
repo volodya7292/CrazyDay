@@ -1,0 +1,61 @@
+[NAME] Level4
+[MAINPLATE] Game/Level4/image.png 10000 1200 0 135 10000 650
+[BACKGROUND] Game/Level4/background.png 1280 720
+[SPAWN] 304 251
+[TASK] { [TYPE] COLLECT [ITEMTYPE] ITEM [ITEMNAME] House [ITEMCOUNT] 1 }
+[MUSIC] Game/Level4/music.mp3
+[HEALTHCARE] health
+[ITEM] Clock-0 257 415 64 64 True Game/Items/clock.png
+[ITEM] Shears-0 5889 336 50 62 True Game/Items/shears.png
+[ITEM] Shears-1 4108 269 50 62 True Game/Items/shears.png
+[ITEM] House-0 9658 395 64 64 False Game/Items/house.png
+[ITEM] health-0 7045 581 64 64 False Game/Items/healthcare.png
+[ITEM] health-1 2256 547 64 64 False Game/Items/healthcare.png
+[COIN] CoinItem-Coin-0 8990 292 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-1 4491 653 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-2 4435 610 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-3 7143 625 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-4 2146 616 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-5 3127 364 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-6 2074 571 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-7 8460 612 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-8 3113 61 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-9 7265 198 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-10 6101 402 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-11 5689 283 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-12 8456 192 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-13 1046 489 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-14 8387 600 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-15 59 327 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-16 5583 538 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-17 2151 543 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-18 1787 324 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-19 4411 673 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-20 9752 422 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-21 8411 664 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-22 3865 310 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-23 7197 558 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-24 7230 640 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-25 4700 281 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-26 5477 468 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-27 5734 564 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-28 3625 46 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-29 3370 72 64 64 Game/Items/coin.png
+[BITMAP] Flower1 2500 162 64 159 Game/Images/flower1.png
+[BITMAP] Flower2 4438 312 64 103 Game/Images/flower2.png
+[BITMAP] Flower3 7722 271 64 141 Game/Images/flower3.png
+[BITMAP] Flower5 9158 312 64 159 Game/Images/flower1.png
+[BITMAP] Flower6 825 571 64 103 Game/Images/flower2.png
+[BITMAP] Flower4 5672 526 64 141 Game/Images/flower3.png
+[ENEMY] Enemy-Enemy1-0 1 5751 240 100 150 Game/Enemy/stone.png Game/Enemy/stone.png Game/Enemy/stone.png
+[ENEMY] Enemy-Enemy2-0 1 1274 385 100 150 Game/Enemy/stone.png Game/Enemy/stone.png Game/Enemy/stone.png
+[ENEMY] Enemy-Enemy3-0 1 7438 202 100 150 Game/Enemy/stone.png Game/Enemy/stone.png Game/Enemy/stone.png
+[ENEMY] Enemy-Enemy4-0 2 9367 394 100 74 Game/Enemy/electrical_slime.png Game/Enemy/electrical_slime.png Game/Enemy/electrical_slime.png
+[SECRET] Secret-Secret1 2055 518 189 189
+[SECRET] Secret-Secret2 4391 584 180 180
+[SECRET] Secret-Secret3 5444 460 376 189
+[SECRET] Secret-Secret4 7114 529 217 217
+[SECRET] Secret-Secret5 8369 576 180 180
+
+
+

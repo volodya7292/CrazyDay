@@ -1,0 +1,74 @@
+[NAME] Level5
+[MAINPLATE] Game/Level5/image.png 10000 1600 0 0 10000 1193
+[BACKGROUND] Game/Level5/background.png 1280 720
+[SPAWN] 241 920
+[TASK] { [AREA] house }
+[MUSIC] Game/Level5/music.mp3
+[HEALTHCARE] health
+[ITEM] Shears-0 3707 585 50 62 True Game/Items/shears.png
+[ITEM] Shears-1 653 981 50 62 True Game/Items/shears.png
+[ITEM] Shears-2 3550 950 50 62 True Game/Items/shears.png
+[ITEM] Plate-0 8075 270 64 64 True Game/Items/plate.png
+[ITEM] Clock-0 5998 865 64 64 True Game/Items/clock.png
+[ITEM] health-0 5845 498 64 64 False Game/Items/healthcare.png
+[ITEM] health-1 1787 638 64 64 False Game/Items/healthcare.png
+[COIN] CoinItem-Coin-0 6419 278 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-1 9627 838 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-2 8920 818 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-3 2961 1013 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-4 9395 618 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-5 6424 537 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-6 3024 267 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-7 1745 733 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-8 3052 602 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-9 4441 950 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-10 5400 496 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-11 8664 266 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-12 6345 777 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-13 414 990 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-14 9492 837 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-15 8936 277 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-16 4906 935 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-17 5896 314 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-18 1407 1032 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-19 5763 633 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-20 885 718 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-21 7385 765 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-22 1053 493 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-23 7520 233 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-24 790 987 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-25 7434 550 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-26 3896 272 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-27 6937 526 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-28 5504 279 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-29 2234 903 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-30 3685 950 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-31 6951 144 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-32 133 1033 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-33 1845 539 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-34 8865 609 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-35 3539 611 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-36 9656 602 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-37 4523 502 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-38 3423 235 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-39 4079 605 64 64 Game/Items/coin.png
+[BITMAP] Flower5 8076 347 64 91 Game/Images/flower5.png
+[BITMAP] Flower6 3576 314 64 133 Game/Images/flower6.png
+[BITMAP] Flower7 5588 1079 64 91 Game/Images/flower7.png
+[BITMAP] Flower1 3216 636 64 159 Game/Images/flower1.png
+[BITMAP] Flower8 804 819 64 64 Game/Images/flower4.png
+[BITMAP] House 9574 107 300 300 Game/Items/house.png
+[ENEMY] Enemy-Stone-0 1 3538 236 100 150 Game/Enemy/stone.png Game/Enemy/stone.png Game/Enemy/stone.png
+[ENEMY] Enemy-Stone-1 1 6972 911 100 150 Game/Enemy/stone.png Game/Enemy/stone.png Game/Enemy/stone.png
+[ENEMY] Enemy-Stone-2 1 2397 907 100 150 Game/Enemy/stone.png Game/Enemy/stone.png Game/Enemy/stone.png
+[ENEMY] Enemy-Electrical-0 2 4807 997 100 74 Game/Enemy/electrical_slime.png Game/Enemy/electrical_slime.png Game/Enemy/electrical_slime.png
+[ENEMY] Enemy-Tank-0 3 9117 225 100 150 Game/Enemy/tank_left.png Game/Enemy/tank_left.png Game/Enemy/tank_right.png
+[SECRET] Secret-house 9721 106 226 313
+[SECRET] Secret-Secret1 1770 613 100 100
+[SECRET] Secret-Secret2 5831 480 100 100
+[SECRET] Secret-Secret3 8795 506 1128 614
+[SECRET] Secret-Secret4 2944 194 1278 205
+[SECRET] Secret-Secret5 723 680 376 132
+
+
+

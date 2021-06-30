@@ -1,0 +1,37 @@
+[NAME] Level1
+[MAINPLATE] Game/Level1/image.png 4000 1400 0 435 3720 400
+[BACKGROUND] Game/Level1/background.png 1280 720
+[SPAWN] 200 456
+[TASK] { [TYPE] COLLECT [ITEMTYPE] ITEM [ITEMNAME] RedHat [ITEMCOUNT] 1 }
+[MUSIC] Game/Level1/music.mp3
+[ITEM] RedHat-0 3816 855 123 57 False Game/Items/red_hat.png
+[COIN] CoinItem-Coin-0 2100 474 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-1 3799 398 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-2 2499 583 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-3 777 606 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-4 1417 564 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-5 558 553 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-6 76 578 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-7 3233 560 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-8 2948 580 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-9 1970 604 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-10 1036 610 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-11 3530 550 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-12 349 574 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-13 1274 604 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-14 3086 450 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-15 1594 458 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-16 1727 586 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-17 2248 580 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-18 2780 574 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-19 2622 475 64 64 Game/Items/coin.png
+[BITMAP] Diamond 200 456 64 64 Game/Items/diamond.png
+[SECRET] Secret-SecretCoin 3796 393 74 74
+[SECRET] Secret-SecretCoin2 1582 447 90 90
+[SECRET] Secret-SecretCoin3 3074 440 86 86
+[SECRET] Secret-SecretCoin4 2612 467 84 84
+[SECRET] Secret-SecretCoin5 2092 469 80 80
+[HAT] False
+
+
+

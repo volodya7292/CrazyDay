@@ -1,0 +1,82 @@
+[NAME] Level2
+[MAINPLATE] Game/Level2/image.png 4000 3000 84 84 3851 2632
+[BACKGROUND] Game/Level2/background.png 1280 720
+[SPAWN] 372 2061
+[TASK] { [TYPE] COLLECT [ITEMTYPE] ITEM [ITEMNAME] Pie [ITEMCOUNT] 10 }
+[MUSIC] Game/Level2/music.mp3
+[ITEM] Pie-0 2163 2179 120 63 False Game/Level2/pie.png
+[ITEM] Pie-1 2814 770 120 63 False Game/Level2/pie.png
+[ITEM] Pie-2 1612 904 120 63 False Game/Level2/pie.png
+[ITEM] Pie-3 3178 1061 120 63 False Game/Level2/pie.png
+[ITEM] Pie-4 152 1540 120 63 False Game/Level2/pie.png
+[ITEM] Pie-5 1469 1466 120 63 False Game/Level2/pie.png
+[ITEM] Pie-6 603 639 120 63 False Game/Level2/pie.png
+[ITEM] Pie-7 3710 2086 120 63 False Game/Level2/pie.png
+[ITEM] Pie-8 601 2050 120 63 False Game/Level2/pie.png
+[ITEM] Pie-9 3277 1562 120 63 False Game/Level2/pie.png
+[ITEM] Plate-0 347 1253 64 64 True Game/Items/plate.png
+[COIN] CoinItem-Coin-0 3060 2172 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-1 770 603 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-2 1049 2106 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-3 3483 1732 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-4 3761 1480 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-5 2148 1527 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-6 2823 1110 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-7 221 833 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-8 512 640 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-9 1225 1986 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-10 2295 1474 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-11 3192 1668 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-12 3333 1025 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-13 1822 2188 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-14 2015 1922 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-15 2458 782 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-16 1565 1060 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-17 3489 1521 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-18 3579 2353 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-19 2580 1937 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-20 2250 1084 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-21 2362 2211 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-22 3685 1551 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-23 1999 1070 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-24 3818 782 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-25 2760 2035 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-26 2137 845 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-27 1670 1938 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-28 2625 811 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-29 492 2135 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-30 1702 1492 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-31 2931 1980 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-32 3768 1576 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-33 795 1625 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-34 1845 1036 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-35 317 1464 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-36 3855 863 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-37 1451 1954 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-38 921 1467 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-39 260 1219 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-40 3772 845 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-41 3155 1470 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-42 2245 1921 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-43 3139 2314 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-44 1952 1518 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-45 2727 2263 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-46 636 1467 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-47 2550 998 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-48 3006 1578 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-49 3083 1101 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-50 2778 1575 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-51 2467 1524 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-52 1215 961 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-53 3618 1028 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-54 903 2055 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-55 981 955 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-56 200 2051 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-57 3442 2549 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-58 1239 1447 64 64 Game/Items/coin.png
+[COIN] CoinItem-Coin-59 2892 2191 64 64 Game/Items/coin.png
+[ENEMY] Enemy-Enemy1-0 1 2287 1120 100 150 Game/Enemy/stone.png Game/Enemy/stone.png Game/Enemy/stone.png
+[SECRET] Secret-Secret1 484 518 391 248
+[SECRET] Secret-Secret2 3675 1437 180 226
+[SECRET] Secret-Secret3 3771 769 150 180
+[SECRET] Secret-Secret4 1807 2169 100 100
