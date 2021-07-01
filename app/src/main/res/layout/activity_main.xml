@@ -4,6 +4,10 @@
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:screenOrientation="landscape"
-                tools:context="ru.mg.crazyday.MainActivity">
+                android:screenOrientation="landscape">
+
+    <com.wadequns.crazyday.DrawView
+        android:id="@+id/drawView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </RelativeLayout>
