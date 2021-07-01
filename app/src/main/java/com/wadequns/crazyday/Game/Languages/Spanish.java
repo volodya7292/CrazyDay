@@ -22,7 +22,7 @@ public final class Spanish {
         Lang.button_restart = "Byrja á";
 
         Lang.help = new String[] {
-                "Þú ert veitt með 8 stigum þar sem þú getur:",
+                "Þú ert veitt með 20 stigum þar sem þú getur:",
                 "———————————————————————————————",
                 "—  Safna Mynt",
                 "—  Finna Secrets",

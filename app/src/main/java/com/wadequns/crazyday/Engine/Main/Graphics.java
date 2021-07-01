@@ -56,8 +56,6 @@ public class Graphics {
         rand = new Random();
 
         if (camW > camH) {
-//            scaleX = 1;
-//            scaleY = 1;
             scaleX = (double) 1280 / camW;
             scaleY = (double) 720 / camH;
         } else {
@@ -558,9 +556,14 @@ public class Graphics {
             obj.draw(canvas);
         }
         for (ButtonObject obj : level.buttonObjects.values()) {
+            Paint opPaint = new Paint(obj.base.paint);
+            if (!obj.enabled) {
+                opPaint.setAlpha((int) (opPaint.getAlpha() * 0.1));
+            }
+
             canvas.drawBitmap(obj.base.bmp, new Rect(0, 0, obj.base.bmp.getWidth(), obj.base.bmp.getHeight()),
                     new Rect((int) (obj.base.getPSX() / scaleX), (int) (obj.base.getPSY() / scaleY), (int) ((obj.base.getPSX() + obj.base.bmp.getWidth()) / scaleX),
-                            (int) ((obj.base.getPSY() + obj.base.bmp.getHeight()) / scaleY)), obj.base.paint);
+                            (int) ((obj.base.getPSY() + obj.base.bmp.getHeight()) / scaleY)), opPaint);
             canvas.drawText(obj.title.text, obj.title.getPSX(), obj.title.getPSY(), obj.title.paint);
         }
 

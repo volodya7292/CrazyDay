@@ -22,7 +22,7 @@ public final class English {
         Lang.button_restart = "Start Over";
 
         Lang.help = new String[] {
-                "You are provided with 8 levels at which you can:",
+                "You are provided with 20 levels at which you can:",
                 "———————————————————————————————",
                 "—  Collect Coins",
                 "—  Find Secrets",

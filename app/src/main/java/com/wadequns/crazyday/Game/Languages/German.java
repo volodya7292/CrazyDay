@@ -22,7 +22,7 @@ public final class German {
         Lang.button_restart = "Zuerst";
 
         Lang.help = new String[] {
-                "Du bist mit 8 Stufen versehen, an denen du kannst:",
+                "Du bist mit 20 Stufen versehen, an denen du kannst:",
                 "———————————————————————————————",
                 "—  Münzen Sammeln",
                 "—  Find Secrets",

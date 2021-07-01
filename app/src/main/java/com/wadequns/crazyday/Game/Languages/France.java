@@ -22,7 +22,7 @@ public final class France {
         Lang.button_restart = "Recommencer";
 
         Lang.help = new String[] {
-                "Vous disposez de 8 niveaux auxquels vous pouvez:",
+                "Vous disposez de 20 niveaux auxquels vous pouvez:",
                 "———————————————————————————————",
                 "—  Collecter Des Pièces",
                 "—  Trouver Des Secrets",

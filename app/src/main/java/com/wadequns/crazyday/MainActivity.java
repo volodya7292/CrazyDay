@@ -12,6 +12,7 @@ import android.util.Log;
 import android.view.Display;
 import android.view.MotionEvent;
 import android.view.WindowManager;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.wadequns.crazyday.Engine.Main.Graphics;
@@ -33,6 +34,7 @@ import com.wadequns.crazyday.Game.Menu.PauseMenu;
 import com.wadequns.crazyday.Game.Sounds;
 
 import java.io.IOException;
+import java.util.Locale;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -47,9 +49,9 @@ public class MainActivity extends AppCompatActivity {
     private final DisplayMetrics metrics = new DisplayMetrics();
     private static boolean levelLoaded = false;
     private static boolean bmpsLoaded = false;
-    public static final boolean PROP_DEBUG =                    false;
-    public static final boolean PROP_ALLLEVELS =                true;
-    public static final boolean PROP_AD =                       true;
+    public static final boolean PROP_DEBUG = false;
+    public static final boolean PROP_ALLLEVELS = false;
+    public static final boolean PROP_AD = true;
     public static int currOrientation, currLevelNumber;
 
     //AD
@@ -128,8 +130,28 @@ public class MainActivity extends AppCompatActivity {
 
         Sounds.init();
 
+
+        String defLang;
+        switch (Locale.getDefault().getISO3Language()) {
+            case "rus":
+                defLang = "Russian";
+                break;
+            case "deu":
+                defLang = "German";
+                break;
+            case "fra":
+                defLang = "France";
+                break;
+            case "spa":
+                defLang = "Spanish";
+                break;
+            default:
+                defLang = "English";
+                break;
+        }
+
         //Loading language
-        switch (prefs.getString("Language", "English")) {
+        switch (prefs.getString("Language", defLang)) {
             case "English":
                 English.init();
                 break;
@@ -159,12 +181,12 @@ public class MainActivity extends AppCompatActivity {
 
         Timer timer = new Timer();
         timer.scheduleAtFixedRate(new TimerTask() {
-                                      @Override
-                                      public void run() {
-                                          if (getRequestedOrientation() != currOrientation)
-                                              setRequestedOrientation(currOrientation);
-                                      }
-                                  }, 0, 100);
+            @Override
+            public void run() {
+                if (getRequestedOrientation() != currOrientation)
+                    setRequestedOrientation(currOrientation);
+            }
+        }, 0, 100);
     }
 
     @Override //Click handler
@@ -190,7 +212,10 @@ public class MainActivity extends AppCompatActivity {
         Sound.releaseMP();
 //        if (PROP_AD) adView0.destroy();
 
-        try { if (loader != null) loader.unload(false); } catch (Exception e) {  }
+        try {
+            if (loader != null) loader.unload(false);
+        } catch (Exception e) {
+        }
     }
 
     @Override
@@ -199,7 +224,10 @@ public class MainActivity extends AppCompatActivity {
         Sound.sp.autoPause();
 //        if (PROP_AD) adView0.pause();
 
-        try { if (loader != null) loader.unload(false); } catch (Exception e) {  }
+        try {
+            if (loader != null) loader.unload(false);
+        } catch (Exception e) {
+        }
     }
 
     @Override
@@ -221,7 +249,7 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
-    public static final Handler disableAdView = new Handler(){
+    public static final Handler disableAdView = new Handler() {
         @Override
         public void handleMessage(Message msg) {
             if (PROP_AD) {
@@ -276,6 +304,6 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
-        Graphics.onDraw(canvas, (int) (1000.0 / frameTime * 2));
+        Graphics.onDraw(canvas, 1000 / frameTime);
     }
 }

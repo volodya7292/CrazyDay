@@ -389,7 +389,7 @@ public class LevelMenu {
 
         if (!MainActivity.PROP_ALLLEVELS) {
             for (int i = 1; i < 21; i++) {
-                level.buttonObjects.get(String.valueOf(i)).enabled = MainActivity.prefs.getBoolean(String.valueOf(i) + "-Active", false);
+                level.buttonObjects.get(String.valueOf(i)).enabled = MainActivity.prefs.getBoolean(i + "-Active", false);
             }
         }
 
@@ -400,11 +400,8 @@ public class LevelMenu {
         unload();
 
         loader = new LevelLoader(path, MainActivity.width, MainActivity.height);
-        loader.event = new LevelLoader.loadEvent() {
-            @Override
-            public void loaded() {
+        loader.event = () -> {
 
-            }
         };
         loader.initAsync();
     }
