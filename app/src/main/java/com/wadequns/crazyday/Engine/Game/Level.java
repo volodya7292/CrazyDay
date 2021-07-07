@@ -63,7 +63,11 @@ public class Level {
     }
 
     public void addBitmapObject(String name, Point pos, int priority, int collX, int collY, int collW, int collH, Bitmap bmp, ProgressBar loadingBar) {
-        bitmapObjects.put(name, new BitmapObject(collMap, pos, priority, collX, collY, collW, collH, bmp, loadingBar));
+        bitmapObjects.put(name, new BitmapObject(collMap, pos, priority, collX, collY, collW, collH, bmp, null, loadingBar));
+    }
+
+    public void addBitmapObject(String name, Point pos, int priority, int collX, int collY, int collW, int collH, Bitmap bmp, Bitmap reducedBmp, ProgressBar loadingBar) {
+        bitmapObjects.put(name, new BitmapObject(collMap, pos, priority, collX, collY, collW, collH, bmp, reducedBmp, loadingBar));
     }
 
     public void addBitmapItemObject(String name, Point pos, int priority, Bitmap bmp) {

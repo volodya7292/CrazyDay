@@ -133,9 +133,18 @@ public class LevelLoader extends AsyncTask<Void, Void, Void> {
                         int collW = scanner.nextInt();
                         int collH = scanner.nextInt();
 
-                        level.collMap = new Boolean[width][height];
+                        final int SUPPORTED_SIZE = 4096;
 
-                        level.addBitmapObject("MAINPLATE", new Point(width / 2, height / 2), CONSTANTS.MAINPLATE_PRIORITY, collX, collY, collW, collH, Graphics.processBitmap(MPpath, width, height), Graphics.level.progressBars.get("loadingBar"));
+                        // Note: divide width by 2 to scale down to original image size
+                        int compatibleWidth = Math.min(width / 2, SUPPORTED_SIZE);
+                        int compatibleHeight = (int) ((float)height / width * compatibleWidth);
+                        compatibleHeight = Math.min(compatibleHeight, SUPPORTED_SIZE);
+                        compatibleWidth = (int)((float) width / height * compatibleHeight);
+
+                        Log.d("MSG!", compatibleWidth + " " + compatibleHeight);
+
+                        level.collMap = new Boolean[width][height];
+                        level.addBitmapObject("MAINPLATE", new Point(width / 2, height / 2), CONSTANTS.MAINPLATE_PRIORITY, collX, collY, collW, collH, Graphics.processBitmap(MPpath, width, height), Graphics.processBitmap(MPpath, compatibleWidth, compatibleHeight), Graphics.level.progressBars.get("loadingBar"));
                         break;
 
                     //Game Background
@@ -367,7 +376,7 @@ public class LevelLoader extends AsyncTask<Void, Void, Void> {
         CompleteMenu.init(name, backgroundPath, coinTaken, secretsFound, false);
         name = null;
 
-        if (!MainActivity.PROP_ALLLEVELS)
+        if (!MainActivity.PROP_ALL_LEVELS)
             MainActivity.prefsEditor.putBoolean(String.valueOf(MainActivity.currLevelNumber + 1) + "-Active", true);
     }
 

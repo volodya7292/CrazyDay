@@ -37,6 +37,9 @@ public class Graphics {
     public static Paint anti_alias = new Paint(Paint.ANTI_ALIAS_FLAG);
     public static Paint defaultColor = new Paint(Paint.ANTI_ALIAS_FLAG);
 
+    private static int nWidth = 1280;
+    private static int nHeight = 720;
+
     public static Level level;
     public static Window MainWindow;
     public static double scaleX;
@@ -56,11 +59,11 @@ public class Graphics {
         rand = new Random();
 
         if (camW > camH) {
-            scaleX = (double) 1280 / camW;
-            scaleY = (double) 720 / camH;
+            scaleX = (double) nWidth / camW;
+            scaleY = (double) nHeight / camH;
         } else {
-            scaleX = (double) 720 / camW;
-            scaleY = (double) 1280 / camH;
+            scaleX = (double) nHeight / camW;
+            scaleY = (double) nWidth / camH;
         }
 
         mult0 = (int) Graphics.scaleHeight(25);
@@ -185,7 +188,7 @@ public class Graphics {
 
     public static Paint scalePaint(Paint paint) {
         Paint newPaint = new Paint(paint);
-        newPaint.setTextSize(Graphics.scaleHeight(newPaint.getTextSize()));
+        newPaint.setTextSize(Graphics.scaleWidth(newPaint.getTextSize()));
 
         return newPaint;
     }
@@ -446,8 +449,18 @@ public class Graphics {
             int x = (int) ((obj.getPSX() - level.camera.getPSX()) / scaleX);
             int y = (int) ((obj.getPSY() - level.camera.getPSY()) / scaleY);
 
-            canvas.drawBitmap(obj.bmp, new Rect(0, 0, obj.bmp.getWidth(), obj.bmp.getHeight()),
+            Bitmap drawBmp = obj.reducedBmp != null ? obj.reducedBmp : obj.bmp;
+
+//            int xs = -Math.min(0, (int) (x * scaleX));
+//            int ws = Math.min(xs + obj.bmp.getWidth(), xs + nWidth);
+//            int ys = -Math.min(0, (int) (y * scaleY));
+//            int hs = Math.min(ys + obj.bmp.getHeight(), ys + nHeight);
+
+            canvas.drawBitmap(drawBmp, new Rect(0, 0, drawBmp.getWidth(), drawBmp.getHeight()),
                     new Rect(x, y, (int) (x + obj.bmp.getWidth() / scaleX), (int) (y + obj.bmp.getHeight() / scaleY)), obj.paint);
+
+//            canvas.drawBitmap(obj.reducedBmp != null ? obj.reducedBmp : obj.bmp, new Rect(xs, ys, ws, hs),
+//                    new Rect((int) (x + xs / scaleX), (int) (y + ys / scaleY), (int) (x + ws / scaleX), (int) (y + hs / scaleY)), obj.paint);
 
             if (obj.item) {
                 if (obj.itemState) {
@@ -516,7 +529,7 @@ public class Graphics {
                 itEnemy.remove();
             } else {
                 if (checkObjectVisibility(obj.object)) {
-                    drawBitmapObject(canvas,obj.object.priority,obj.object);
+                    drawBitmapObject(canvas, obj.object.priority, obj.object);
                 }
             }
         }
@@ -585,7 +598,7 @@ public class Graphics {
             }
 
             Graphics.draw(canvas, 0);
-        } catch (Exception e) {
+        } catch (Exception ignored) {
 
         }
     }

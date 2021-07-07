@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
     private static boolean levelLoaded = false;
     private static boolean bmpsLoaded = false;
     public static final boolean PROP_DEBUG = false;
-    public static final boolean PROP_ALLLEVELS = false;
+    public static final boolean PROP_ALL_LEVELS = false;
     public static final boolean PROP_AD = true;
     public static int currOrientation, currLevelNumber;
 
@@ -61,6 +61,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED,
+                WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED);
         setContentView(R.layout.activity_main);
 
         prefs = getSharedPreferences("Prefs", Context.MODE_PRIVATE);
@@ -99,8 +101,6 @@ public class MainActivity extends AppCompatActivity {
 
         width = displayMetrics.widthPixels;
         height = displayMetrics.heightPixels;
-
-        Log.d("MSG!", width + " " + height);
 
         //Initializing game engine
         Graphics.init(getAssets(), getWindow(), width, height);

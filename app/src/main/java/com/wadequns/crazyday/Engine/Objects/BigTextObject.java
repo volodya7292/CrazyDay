@@ -15,17 +15,17 @@ public class BigTextObject {
         for (int i = 0; i < text.length; i++) {
             if (i == 0) {
                 objects[i] = new TextObject(text[i], new Point(0, 0), priority, paint);
-                objects[i].setNewPSY(pos.y);
+                objects[i].setPSY(pos.y);
             } else {
                 objects[i] = new TextObject(text[i], new Point(0, 0), priority, paint);
 
                 Rect bounds = new Rect();
                 paint.getTextBounds(text[i], 0, text[i].length(), bounds);
 
-                objects[i].setNewPSY((int)(objects[i - 1].getPSY() + bounds.height() + Graphics.scaleHeight(indent)));
+                objects[i].setPSY((int)(objects[i - 1].getPSY() + bounds.height() + Graphics.scaleHeight(indent)));
             }
 
-            objects[i].setNewPSX(pos.x);
+            objects[i].setPSX(pos.x);
         }
     }
 }

@@ -21,6 +21,7 @@ public class LevelMenu {
 
         level = new Level(1280, 720, 3, 500, new Camera(new Point(640, 360)));
 
+        level.addBitmapObject("Background", new Point(640, 360), 0, Bitmaps.ui_menu_background);
         level.addBitmapObject("Plate", new Point(640, 360), 1, Bitmaps.ui_level_complete_plate_2);
 
         level.addTextObject("title", Lang.title_levels, new Point(200, 90), 1, Fonts.buttonText);
@@ -387,7 +388,7 @@ public class LevelMenu {
         MainActivity.prefsEditor.putBoolean("1-Active", true);
         MainActivity.prefsEditor.commit();
 
-        if (!MainActivity.PROP_ALLLEVELS) {
+        if (!MainActivity.PROP_ALL_LEVELS) {
             for (int i = 1; i < 21; i++) {
                 level.buttonObjects.get(String.valueOf(i)).enabled = MainActivity.prefs.getBoolean(i + "-Active", false);
             }

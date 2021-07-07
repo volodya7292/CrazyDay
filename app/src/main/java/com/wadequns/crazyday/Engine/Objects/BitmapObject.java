@@ -4,7 +4,6 @@ import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Point;
-import android.util.Log;
 
 import java.nio.ByteBuffer;
 
@@ -23,7 +22,7 @@ public class BitmapObject {
     public boolean item = false;
     public boolean removing, isThrow;
     public Paint paint = Graphics.anti_alias;
-    public Bitmap bmp;
+    public Bitmap bmp, reducedBmp;
     public String name;
 
     public BitmapObject(Boolean[][] collMap, Point pos, int priority, boolean collision, Bitmap bmp) {
@@ -78,7 +77,7 @@ public class BitmapObject {
         }
     }
 
-    public BitmapObject(Boolean[][] collMap, Point pos, int priority, int collX, int collY, int collW, int collH, Bitmap bmp, ProgressBar loadingBar) {
+    public BitmapObject(Boolean[][] collMap, Point pos, int priority, int collX, int collY, int collW, int collH, Bitmap bmp, Bitmap reducedBmp,ProgressBar loadingBar) {
         this.x = pos.x;
         this.y = pos.y;
         this.psx = pos.x - bmp.getWidth() / 2;
@@ -87,6 +86,7 @@ public class BitmapObject {
         this.collision = true;
         this.globalCollision = true;
         this.bmp = bmp;
+        this.reducedBmp = reducedBmp;
         this.collX = collX;
         this.collY = collY;
         this.removing = false;
@@ -102,8 +102,6 @@ public class BitmapObject {
         ByteBuffer byteBuffer = ByteBuffer.allocate(size);
         bmp.copyPixelsToBuffer(byteBuffer);
         byte[] byteArray = byteBuffer.array();
-
-        Log.d("MSG!", " " + collMap.length + " " + collMap[0].length + "    " + this.collX + " " + this.collY + "        " + bmp.getWidth() + " " + bmp.getHeight());
 
         for (int sy = 1; sy < this.collH; sy++) {
             for (int sx = 1; sx < this.collW; sx++) {
