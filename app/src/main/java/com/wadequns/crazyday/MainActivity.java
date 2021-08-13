@@ -4,13 +4,14 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
 import android.graphics.Canvas;
+import android.os.Build;
+import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.os.Bundle;
 import android.util.DisplayMetrics;
-import android.util.Log;
 import android.view.Display;
 import android.view.MotionEvent;
+import android.view.Window;
 import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,6 +19,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.wadequns.crazyday.Engine.Main.Graphics;
 import com.wadequns.crazyday.Engine.Main.Sound;
 import com.wadequns.crazyday.Game.BitmapLoader;
+import com.wadequns.crazyday.Game.Bitmaps;
 import com.wadequns.crazyday.Game.Languages.English;
 import com.wadequns.crazyday.Game.Languages.France;
 import com.wadequns.crazyday.Game.Languages.German;
@@ -37,8 +39,6 @@ import java.io.IOException;
 import java.util.Locale;
 import java.util.Timer;
 import java.util.TimerTask;
-
-import com.wadequns.crazyday.Game.Bitmaps;
 
 public class MainActivity extends AppCompatActivity {
     public static SharedPreferences prefs;
@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED,
                 WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED);
         setContentView(R.layout.activity_main);
@@ -85,7 +86,13 @@ public class MainActivity extends AppCompatActivity {
 //        setContentView(layout);
 
         //Game Screen
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
+            WindowManager.LayoutParams layoutParams = getWindow().getAttributes();
+            layoutParams.layoutInDisplayCutoutMode = WindowManager.LayoutParams.LAYOUT_IN_DISPLAY_CUTOUT_MODE_SHORT_EDGES;
+            getWindow().setAttributes(layoutParams);
+        }
+
         getSupportActionBar().hide();
         getWindowManager().getDefaultDisplay().getMetrics(metrics);
 
@@ -109,20 +116,12 @@ public class MainActivity extends AppCompatActivity {
         //Loading assets
         Bitmaps.loadLoadingBitmaps();
         BitmapLoader bl = new BitmapLoader();
-        bl.event = new BitmapLoader.loadEvent() {
-            @Override
-            public void loaded() {
-                BitmapLoader bl = new BitmapLoader();
-                bl.event = new BitmapLoader.loadEvent() {
-                    @Override
-                    public void loaded() {
-                        bmpsLoaded = true;
-                    }
-                };
+        bl.event = () -> {
+            BitmapLoader bl1 = new BitmapLoader();
+            bl1.event = () -> bmpsLoaded = true;
 
-                bl.state = "Game";
-                bl.execute();
-            }
+            bl1.state = "Game";
+            bl1.execute();
         };
 
         bl.state = "UI";
