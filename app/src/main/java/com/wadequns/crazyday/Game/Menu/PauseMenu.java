@@ -20,8 +20,6 @@ public class PauseMenu {
     public static void init(final Level pausedLevel, final String levelName) {
         level = new Level(1280, 720, 3, 500, new Camera(new Point(640, 360)));
 
-        MainActivity.disableAdView.sendEmptyMessage(0);
-
         //Background
         level.addBitmapObject("Background", new Point(640, 360), 0, Bitmaps.ui_menu_background);
 
@@ -39,8 +37,6 @@ public class PauseMenu {
                 Main.tmStart();
                 Sound.sp.autoResume();
                 Sound.mp.start();
-
-                MainActivity.enableAdView.sendEmptyMessage(0);
             }
 
             @Override

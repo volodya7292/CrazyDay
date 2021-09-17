@@ -74,9 +74,6 @@ public class LevelLoader extends AsyncTask<Void, Void, Void> {
             MainActivity.loader = this;
             Sound.playMusic(musicPath);
             Sound.mp.setLooping(true);
-
-            //Set AdView active
-            MainActivity.enableAdView.sendEmptyMessage(0);
         } catch (Exception e) {
         }
     }
@@ -365,8 +362,6 @@ public class LevelLoader extends AsyncTask<Void, Void, Void> {
         spawnX = 0;
         spawnY = 0;
         level = null;
-
-        MainActivity.disableAdView.sendEmptyMessage(0);
     }
 
     public void win() {
@@ -377,7 +372,7 @@ public class LevelLoader extends AsyncTask<Void, Void, Void> {
         name = null;
 
         if (!MainActivity.PROP_ALL_LEVELS)
-            MainActivity.prefsEditor.putBoolean(String.valueOf(MainActivity.currLevelNumber + 1) + "-Active", true);
+            MainActivity.prefsEditor.putBoolean((MainActivity.currLevelNumber + 1) + "-Active", true);
     }
 
     public void onDraw() {

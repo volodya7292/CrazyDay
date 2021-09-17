@@ -6,16 +6,23 @@ import android.content.pm.ActivityInfo;
 import android.graphics.Canvas;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.Display;
 import android.view.MotionEvent;
 import android.view.Window;
 import android.view.WindowManager;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.gms.ads.AdError;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.FullScreenContentCallback;
+import com.google.android.gms.ads.LoadAdError;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.interstitial.InterstitialAd;
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 import com.wadequns.crazyday.Engine.Main.Graphics;
 import com.wadequns.crazyday.Engine.Main.Sound;
 import com.wadequns.crazyday.Game.BitmapLoader;
@@ -54,6 +61,47 @@ public class MainActivity extends AppCompatActivity {
     public static final boolean PROP_AD = true;
     public static int currOrientation, currLevelNumber;
 
+    private final String AD_ID = PROP_DEBUG ? "ca-app-pub-3940256099942544/1033173712"
+            : "ca-app-pub-3148299629417353/4169239015";
+
+    private final InterstitialAdLoadCallback adLoadCallback = new InterstitialAdLoadCallback() {
+        @Override
+        public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
+            interstitialAd.setFullScreenContentCallback(fullScreenContentCallback);
+            interstitialAd.show(MainActivity.this);
+        }
+
+        @Override
+        public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
+            Log.e("ADMOB!", loadAdError.getMessage());
+        }
+    };
+    private final FullScreenContentCallback fullScreenContentCallback = new FullScreenContentCallback() {
+        @Override
+        public void onAdFailedToShowFullScreenContent(@NonNull AdError adError) {
+            Log.e("ADMOB!", adError.getMessage());
+        }
+
+        @Override
+        public void onAdShowedFullScreenContent() {
+            if (PROP_DEBUG) {
+                new Thread(() -> {
+                    try {
+                        Thread.sleep(1000 * 45);
+                    } catch (InterruptedException ignored) {
+                    }
+                    runOnUiThread(() -> {
+                        AdRequest adRequest = new AdRequest.Builder().build();
+                        InterstitialAd.load(MainActivity.this, AD_ID, adRequest, adLoadCallback);
+                    });
+                });
+            } else {
+                AdRequest adRequest = new AdRequest.Builder().build();
+                InterstitialAd.load(MainActivity.this, AD_ID, adRequest, adLoadCallback);
+            }
+        }
+    };
+
     //AD
 //    private static AdRequest adRequest;
 //    public static AdView adView0;
@@ -66,24 +114,15 @@ public class MainActivity extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED);
         setContentView(R.layout.activity_main);
 
+        if (PROP_AD) {
+            MobileAds.initialize(this, initializationStatus -> {
+            });
+            AdRequest adRequest = new AdRequest.Builder().build();
+            InterstitialAd.load(this, AD_ID, adRequest, adLoadCallback);
+        }
+
         prefs = getSharedPreferences("Prefs", Context.MODE_PRIVATE);
         prefsEditor = prefs.edit();
-
-        //Adding an AdView and game view
-//        adRequest = new AdRequest.Builder().build();
-
-//        adView0 = new AdView(this);
-//        adView0.setAdSize(AdSize.BANNER);
-//        adView0.setAdUnitId("ca-app-pub-1480510387927957/7780206116");
-//        adView0.setLayoutParams(lp0);
-
-//        layout = new RelativeLayout(this);
-//        layout.addView(new DrawView(this));
-//        layout.addView(adView0);
-
-//        if (PROP_AD) adView0.loadAd(adRequest);
-
-//        setContentView(layout);
 
         //Game Screen
 
@@ -209,7 +248,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         Sound.releaseMP();
-//        if (PROP_AD) adView0.destroy();
 
         try {
             if (loader != null) loader.unload(false);
@@ -221,7 +259,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onPause() {
         super.onPause();
         Sound.sp.autoPause();
-//        if (PROP_AD) adView0.pause();
 
         try {
             if (loader != null) loader.unload(false);
@@ -232,32 +269,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-//        if (PROP_AD) adView0.resume();
         Sound.sp.autoResume();
     }
-
-    public static final Handler enableAdView = new Handler() {
-        @Override
-        public void handleMessage(Message msg) {
-            if (PROP_AD) {
-//                adView0.setX(Graphics.scaleWidth(740) - AdSize.BANNER.getWidthInPixels(thisContext) / 2);
-//                adView0.setY(Graphics.scaleHeight(620) - AdSize.BANNER.getHeightInPixels(thisContext) / 2);
-//                adView0.loadAd(adRequest);
-//                adView0.resume();
-            }
-        }
-    };
-
-    public static final Handler disableAdView = new Handler() {
-        @Override
-        public void handleMessage(Message msg) {
-            if (PROP_AD) {
-//                adView0.setX(width);
-//                adView0.setY(height);
-//                adView0.destroy();
-            }
-        }
-    };
 
     public static void onDraw(Canvas canvas, int frameTime) {
         if (bmpsLoaded) {

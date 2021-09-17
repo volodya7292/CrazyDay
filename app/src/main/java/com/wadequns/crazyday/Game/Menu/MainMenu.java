@@ -20,7 +20,6 @@ public class MainMenu {
 
     public static void init() {
         MainActivity.levelName = "MainMenu";
-        MainActivity.disableAdView.sendEmptyMessage(0);
 
         level = new Level(1280, 720, 3, 500, new Camera(new Point(640, 360)));
 
